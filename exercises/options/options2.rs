@@ -1,10 +1,10 @@
 // options2.rs
-// Execute `rustlings hint options2` or use the `hint` watch subcommand for a hint.
+//
+// Execute `rustlings hint options2` or use the `hint` watch subcommand for a
+// hint.
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-
     #[test]
     fn simple_option() {
         let target = "rustlings";
@@ -30,5 +30,7 @@ mod tests {
             assert_eq!(integer, range);
             range -= 1;
         }
+
+        assert_eq!(cursor, 0);
     }
 }
